@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container.blue{
+    display: flex;
+    justify-content: center;
+}
+
+ header,.hero,.pop-up-content{
+    width: 70%;
+    margin: 0 auto;
+ }
+
+
+header{
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+header ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.hero{
+    display: flex;
+    padding-top: 7rem;
+    padding-bottom: 9rem;
+    gap: 5rem;
+ }
+
+
+ .hero-phrase{
+    color: #f9faf8;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+ .hero .image{
+    height: 100%;
+    background-color: gray;
+    flex-grow: 1;
+    flex-basis: 0;
+ }
+
+ .hero-phrase h1{
+    font-size: 48px;
+    font-weight: 900;
+    padding-right: 10rem;
+ }
+
+ .hero-phrase p{
+    padding: 0.7rem 0;
+ }
+
+ .hero-phrase p, header li{
+    font-size: 24px;
+    color: #e5e7eb;
+ }
+
+ .hero img{
+    width: 100%;
+    height: 100%;
+ }
+
+ .hero button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: .5rem 2rem;
+    border-radius: 7px;
+ }
+
+main{
+    flex-grow: 1;
+}
+
+.container.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+.info-header{
+    padding: 2rem 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-content{
+    display: flex;
+    width: 60%;
+    gap: 7%;
+}
+
+.info-item{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    
+}
+
+
+.round-square{
+ border: 5px solid #3882f6;
+ 
+ width: 100%;
+ aspect-ratio: 1;
+ border-radius: 15px;
+}
+
+.blue{
+    background-color: #1f2937;
+}
+
+.gray{
+    background-color: #e5e7eb;
+}
+
+
+
+.quote {
+    width: 58%;
+    margin: auto;    
+    color: #1f2937;
+    padding: 5rem 0;
+
+}
+
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    
+}
+
+cite{
+    display: block;
+    margin-left: auto;
+    width: max-content;
+    margin-right: 3rem;
+
+}
+
+.pop-up{
+    padding: 5rem 0;
+}
+
+.pop-up-content{
+    background-color: #3882f6;
+    border-radius: 7px;
+    padding: 3rem 7rem;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+}
+.pop-up button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 1px solid #f9faf8;
+    border-radius: 7px;
+    padding: 0 2.2rem;
+}
+footer{
+    padding: 3rem 0;
+}
+
+footer div{
+    color: #f9faf8;
+    width: max-content;
+    margin: auto;
+}
